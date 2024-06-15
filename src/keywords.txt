@@ -1,0 +1,29 @@
+###################################
+# Syntax Coloring Map For EEPROMLibrary6
+###################################
+
+###################################
+# Datatypes (KEYWORD1)
+###################################
+
+EEPROMLibrary6	KEYWORD1
+
+###################################
+# Methods and Functions (KEYWORD2)
+###################################
+InstrumentType	KEYWORD2
+SerialNumber	KEYWORD2
+FileNumber	KEYWORD2
+IncrementFile	KEYWORD2
+ErrorCheck	KEYWORD2
+CreateFileName	KEYWORD2
+ListFiles	KEYWORD2
+FileExists	KEYWORD2
+GetNewFileName	KEYWORD2
+WriteData	KEYWORD2
+SetUp		KEYWORD2
+MeasureLTC2983	KEYWORD2
+###################################
+# Constants (LITERAL1)
+###################################
+
