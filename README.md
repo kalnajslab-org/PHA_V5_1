@@ -4,7 +4,7 @@ Firmware for the LASP Teensy-based Pulse Height Analyzer
 This repository was initially started with version 5.1 of the Pulse Height Analyzer 
 Teensy code.
 
-A feature was added where a few operational parameters can be
+In v5.1, a feature was added where a few operational parameters can be
 adjusted via the Serial connection that the PHA transmits data
 to the LPC mainboard. This will allow the PHA to be adjusted during
 flight.
