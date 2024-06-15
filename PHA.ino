@@ -120,6 +120,10 @@ DEBUG_SERIAL.begin(115200); //USB serial
 delay(2000);
 DEBUG_SERIAL.println(Version);
 
+Serial.print("PHA build ");
+Serial.print(__DATE__);
+Serial.print(" ");
+Serial.println(__TIME__);
 
 /* Set GPIO6 pins to inputs */
 pinMode(D0, INPUT);
