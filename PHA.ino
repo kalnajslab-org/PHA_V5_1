@@ -5,6 +5,14 @@
 #define INTERACTIVE
 String Version = "PHA_V5_1";
 
+FASTRUN void Get_Baseline(int NumSamples);
+FASTRUN int Get_Pulse_fast(unsigned int trigger_level);
+void parseCommand(String commandToParse);
+void setDACReference(int ref);
+void setDACGain(byte Gain);
+void setOutputA(unsigned int val);
+void setOutputB(unsigned int val);
+
 /* 
  *  New Version for PHA Rev E
  *  New pin mappings, digital threshold detection
