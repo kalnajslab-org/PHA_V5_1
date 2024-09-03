@@ -5,6 +5,14 @@
 #define INTERACTIVE
 String Version = "PHA_V5_1";
 
+FASTRUN void Get_Baseline(int NumSamples);
+FASTRUN int Get_Pulse_fast(unsigned int trigger_level);
+void parseCommand(String commandToParse);
+void setDACReference(int ref);
+void setDACGain(byte Gain);
+void setOutputA(unsigned int val);
+void setOutputB(unsigned int val);
+
 /* 
  *  New Version for PHA Rev E
  *  New pin mappings, digital threshold detection
@@ -120,6 +128,10 @@ DEBUG_SERIAL.begin(115200); //USB serial
 delay(2000);
 DEBUG_SERIAL.println(Version);
 
+Serial.print("PHA build ");
+Serial.print(__DATE__);
+Serial.print(" ");
+Serial.println(__TIME__);
 
 /* Set GPIO6 pins to inputs */
 pinMode(D0, INPUT);
